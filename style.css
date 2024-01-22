@@ -1,0 +1,94 @@
+input {
+    width:150px;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+select{
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+
+}
+.calculator{
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+    margin-top: 50px;
+}
+ 
+
+button:hover {
+    background-color: #45a049;
+}
+
+.wrap{
+    border-radius: 25px;
+}
+
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align:center;
+}
+#bmi-slider {
+    width: 80%;
+    margin-top: 10px;
+    display: none;
+    margin: auto;
+    
+}
+
+#result{
+    display: none;
+}
+
+
+body.dark-mode {
+    --bg-color-dark: #121212;
+    --text-color-dark: #ffffff;
+
+    
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+
+    .calculator{
+        background-color: var(--bg-color-dark);
+        color: var(--text-color-dark);
+    }
+}
+
+#mode-toggle {
+    padding: 10px;
+   
+    color: #92caeb;
+    border: none;
+    cursor: pointer; /* Add this line to set the cursor to pointer */
+}
+
+#mode-toggle:hover {
+    background-color: #bddae8b8;
+}
